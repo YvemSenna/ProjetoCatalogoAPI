@@ -17,6 +17,7 @@ namespace APICatalogo
             builder.Services.AddSwaggerGen();
 
             string mySqlConnection = builder.Configuration.GetConnectionString("DefaultConnection");
+
             builder.Services.AddDbContext<AppDbContext>(option => option.UseMySql(mySqlConnection, ServerVersion.AutoDetect(mySqlConnection)));
 
             var app = builder.Build();

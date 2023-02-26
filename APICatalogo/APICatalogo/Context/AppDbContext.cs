@@ -5,7 +5,7 @@ namespace APICatalogo.Context;
 
 public class AppDbContext : DbContext
 {
-    protected AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
+    public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
     {
 
     }
