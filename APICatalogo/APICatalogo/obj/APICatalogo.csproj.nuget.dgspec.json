@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\conta\\Desktop\\MaterialDeEstudo\\ProJetoAPICatalogo\\APICatalogo\\apicatalogo\\APICatalogo.csproj": {}
+    "C:\\Users\\conta\\Desktop\\MaterialDeEstudo\\ProJetoAPICatalogo\\APICatalogo\\APICatalogo\\APICatalogo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\conta\\Desktop\\MaterialDeEstudo\\ProJetoAPICatalogo\\APICatalogo\\apicatalogo\\APICatalogo.csproj": {
+    "C:\\Users\\conta\\Desktop\\MaterialDeEstudo\\ProJetoAPICatalogo\\APICatalogo\\APICatalogo\\APICatalogo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\conta\\Desktop\\MaterialDeEstudo\\ProJetoAPICatalogo\\APICatalogo\\apicatalogo\\APICatalogo.csproj",
+        "projectUniqueName": "C:\\Users\\conta\\Desktop\\MaterialDeEstudo\\ProJetoAPICatalogo\\APICatalogo\\APICatalogo\\APICatalogo.csproj",
         "projectName": "APICatalogo",
-        "projectPath": "C:\\Users\\conta\\Desktop\\MaterialDeEstudo\\ProJetoAPICatalogo\\APICatalogo\\apicatalogo\\APICatalogo.csproj",
+        "projectPath": "C:\\Users\\conta\\Desktop\\MaterialDeEstudo\\ProJetoAPICatalogo\\APICatalogo\\APICatalogo\\APICatalogo.csproj",
         "packagesPath": "C:\\Users\\conta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\conta\\Desktop\\MaterialDeEstudo\\ProJetoAPICatalogo\\APICatalogo\\apicatalogo\\obj\\",
+        "outputPath": "C:\\Users\\conta\\Desktop\\MaterialDeEstudo\\ProJetoAPICatalogo\\APICatalogo\\APICatalogo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -45,9 +45,17 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[6.0.3, )"
             },
