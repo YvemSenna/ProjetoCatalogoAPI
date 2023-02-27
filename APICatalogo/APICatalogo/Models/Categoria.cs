@@ -1,5 +1,4 @@
-﻿using Microsoft.VisualBasic;
-using System.Collections.ObjectModel;
+﻿using System.Collections.ObjectModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -12,6 +11,7 @@ public class Categoria
     {
         Produtos= new Collection<Produto>();
     }
+
     [Key]
     public int CategoriaId { get; set; }
 
